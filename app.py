@@ -16,9 +16,8 @@ st.markdown("""
     All maps are interactive. If you scroll on the map it will zoom in or out. To scroll the page, ensure that the cursor is in a white space at either side.
 
     ### Currently Monitoring:
-    At present, this app only contains data on the levels of $NO_2$, $O_3$, PM10, and $SO_2$.
-
-
+    At present, this app only contains data on the levels of $NO_2$, $O_3$, $PM_{10}$, and $SO_2$.
+    Other contaminants are measured at some stations; however, their coverage across stations is minimal and therfore not included at the moment
     """)
 
 MAPS_DIR = "maps"
@@ -30,9 +29,9 @@ if not os.path.exists(stations_map_path):
     st.warning("Stations map not found")
 else:
     st.markdown("""
-    ## Map of air contaminant monitoring stations  
-    Click on a station marker to view weekly average timeplots for the contaminants measured at that station.  
-    Use the drop down menu in the chart to change between contaminants or choose to display all contaminants at the same time.
+    # Map of air contaminant monitoring stations  
+    1. Click on a station marker to view weekly average timeplots for the contaminants measured at that station.  
+    2. Use the drop down menu in the chart to change between contaminants or choose to display all contaminants at the same time.
     """)
     with open(stations_map_path, "r") as m:
         st.components.v1.html(m.read(), height=600)
@@ -41,7 +40,7 @@ if not contaminant_maps:
     st.warning("No contaminant maps found")
 else:
     st.markdown("""
-    ## Timelapse maps of air air contaminant levels
+    # Timelapse Maps 
     The following maps show timelapses of air contaminant levels between April 2019 and November 2024.  
     Use the controller bar at the top of each map to start/stop the timelapse, move to a certain timeframe, or alter the speed of the timelapse.
     """)
