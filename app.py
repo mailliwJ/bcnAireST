@@ -9,10 +9,13 @@ st.set_page_config(
 
 st.title("Contaminant Heatmaps With Time for Barcelona")
 st.markdown("""
+    ### About The App:
     This app is being developed to help visualise historical data about air contaminants in Barcelona.  
     The first map shows the locations of air contaminant monitoring stations in the metropolitan area of Barcelona (AMB).  
     The subsequent visualisations show timelapses of the the levels of specific air contaminants across the city.  
     All maps are interactive. If you scroll on the map it will zoom in or out. To scroll the page, ensure that the cursor is in a white space at either side.
+
+
     """)
 
 MAPS_DIR = "maps"
