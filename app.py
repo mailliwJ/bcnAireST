@@ -25,7 +25,8 @@ if not os.path.exists(stations_map_path):
 else:
     st.markdown("""
     ## Map of air contaminant monitoring stations  
-    Click on a station marker to display which contaminants are measured at that station.
+    Click on a station marker to view weekly average timeplots for the contaminants measured at that station.  
+    Use the drop down menu in the chart to change between contaminants or choose to display all on the same chart.
     """)
     with open(stations_map_path, "r") as m:
         st.components.v1.html(m.read(), height=600)
