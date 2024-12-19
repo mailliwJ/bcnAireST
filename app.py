@@ -32,6 +32,7 @@ else:
     # Map of air contaminant monitoring stations  
     1. Click on a station marker to view weekly average timeplots for the contaminants measured at that station.  
     2. Use the drop down menu in the chart to change between contaminants or choose to display all contaminants at the same time.
+    3. Click and drag to move the map if necessary.
     """)
     with open(stations_map_path, "r") as m:
         st.components.v1.html(m.read(), height=600)
