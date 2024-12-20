@@ -31,7 +31,7 @@ if not os.path.exists(stations_map_path):
 else:
     st.markdown("""
     # Air contaminant monitoring stations
-    The following map shows the locations of 8 air contaminant monitoring stations in the BarcelonaMetropolitan Area (AMB).  
+    The following map shows the locations of 8 air contaminant monitoring stations in the Barcelona Metropolitan Area (AMB).  
     1. Click on a station marker to view weekly average timeplots for the contaminants measured at that station.  
     2. Use the drop down menu in the chart to change between contaminants or choose to displaya plot of all contaminants.
     3. Click and drag to move the map if necessary.
