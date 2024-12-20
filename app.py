@@ -10,7 +10,7 @@ st.set_page_config(
 st.title("Barcelona Aire")
 st.markdown("""
     ### About The App:
-    This app is being developed to help visualise historical data about air contaminants in Barcelona.  
+    This app is being developed to help visualise historical data about air contaminants in the Barcelona Metropolitan Area (AMB).  
     All maps are interactive. If you scroll on the map it will zoom in or out. To scroll the page, ensure that the cursor is in a white space at either side.
 
     ### About the Data:
