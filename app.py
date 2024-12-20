@@ -15,6 +15,10 @@ st.markdown("""
     The subsequent visualisations show timelapses of the the levels of specific air contaminants across the city.  
     All maps are interactive. If you scroll on the map it will zoom in or out. To scroll the page, ensure that the cursor is in a white space at either side.
 
+    ### About the Data:
+    The data displayed in this application was obtained through the AMB Open Data [API](https://opendata.amb.cat/help.html).  
+    The available datasets span from 2019 through November 2024.
+
     ### Currently Monitoring:
     At present, this app only contains data on the levels of $NO_2$, $O_3$, $PM_{10}$, and $SO_2$.
     Other contaminants are measured at some stations; however, their coverage across stations is minimal and therfore not included at the moment
@@ -31,7 +35,7 @@ else:
     st.markdown("""
     # Air contaminant monitoring stations  
     1. Click on a station marker to view weekly average timeplots for the contaminants measured at that station.  
-    2. Use the drop down menu in the chart to change between contaminants or choose to display all contaminants at the same time.
+    2. Use the drop down menu in the chart to change between contaminants or choose to displaya plot of all contaminants.
     3. Click and drag to move the map if necessary.
     """)
     with open(stations_map_path, "r") as m:
