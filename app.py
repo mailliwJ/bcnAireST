@@ -66,7 +66,7 @@ def heatmaps():
                 with open(os.path.join(MAPS_DIR, map), 'r') as f:
                     st.components.v1.html(f.read(), height=400)
 
-if menu == 'About App':
+if menu == 'About':
     about()
 elif menu == 'Monitoring Stations Map':
     stations_map()
