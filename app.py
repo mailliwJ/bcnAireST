@@ -16,8 +16,7 @@ st.markdown("""
     All maps are interactive. If you scroll on the map it will zoom in or out. To scroll the page, ensure that the cursor is in a white space at either side.
 
     ### About the Data:
-    The data displayed in this application was obtained through the AMB Open Data [API](https://opendata.amb.cat/help.html).  
-    The available datasets span from 2019 through November 2024.
+    The data displayed in this application was obtained through the AMB Open Data [API](https://opendata.amb.cat/help.html), with available datasets spanning from 2019 through to November 2024.
 
     ### Currently Monitoring:
     At present, this app only contains data on the levels of $NO_2$, $O_3$, $PM_{10}$, and $SO_2$.
