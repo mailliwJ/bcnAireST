@@ -68,7 +68,7 @@ def heatmaps():
 
 if menu == 'About App':
     about_app()
-elif menu == ' Monitoring Stations Map':
+elif menu == 'Monitoring Stations Map':
     stations_map()
 elif menu == 'Contaminant Heatmaps':
     heatmaps()
