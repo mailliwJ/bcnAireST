@@ -9,9 +9,9 @@ st.set_page_config(
 
 MAPS_DIR = "maps"
 
-menu = st.sidebar.radio('', ['About App', 'Monitoring Stations Map', 'Contaminant Heatmaps'])
+menu = st.sidebar.radio('', ['About', 'Monitoring Stations Map', 'Contaminant Heatmaps'])
 
-def about_app():
+def about():
     st.title("Barcelona Aire")
     st.markdown("""
         ### About The App:
@@ -67,7 +67,7 @@ def heatmaps():
                     st.components.v1.html(f.read(), height=400)
 
 if menu == 'About App':
-    about_app()
+    about()
 elif menu == 'Monitoring Stations Map':
     stations_map()
 elif menu == 'Contaminant Heatmaps':
